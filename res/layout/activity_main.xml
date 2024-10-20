@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_centerInParent="true"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#0E0A0A"
+        android:id="@+id/txtText"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Translate"
+            android:id="@+id/btnTranslate"
+            android:backgroundTint="#C6C2C2"
+            android:textColor="#0C0000"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scale"
+            android:id="@+id/btnScale"
+            android:backgroundTint="#C6C2C2"
+            android:textColor="#0C0000"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alpha"
+            android:id="@+id/btnAlpha"
+            android:backgroundTint="#C6C2C2"
+            android:textColor="#0C0000"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate"
+            android:id="@+id/btnRotate"
+            android:backgroundTint="#C6C2C2"
+            android:textColor="#0C0000"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Lottie"
+        android:id="@+id/btnLottie" />
+
+</RelativeLayout>
